@@ -16,7 +16,12 @@ temp/
 
 # Dependency folders, if tooling is added later
 node_modules/
+.next/
+out/
 
 # Build output folders, if tooling is added later
 dist/
 build/
+
+# Local npm cache used for sandboxed installs
+.npm-cache/

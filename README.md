@@ -1,11 +1,11 @@
 # Bau-Connekt Website
 
-Statische Unternehmenswebsite für die Bau-Connekt GmbH.
+Next.js-Unternehmenswebsite für die Bau-Connekt GmbH.
 
 ## Inhalt
 
-- Responsive HTML/CSS-Website
-- Logo und Bildmaterial im Ordner `assets/`
+- Responsive Next.js-Website
+- Logo und Bildmaterial im Ordner `public/assets/`
 - Projektanfrage als Formular-Popup
 - Kunden- und Unternehmer-Registrierung im Kontaktbereich
 - Mehrsprachiger 24h-Chatbot als statisches Website-Widget
@@ -15,12 +15,18 @@ Statische Unternehmenswebsite für die Bau-Connekt GmbH.
 
 ```text
 .
-├── assets/
-│   ├── bau-connekt-logo-web.png
-│   ├── bau-connekt-logo.png
-│   ├── glasfaser-installation.png
-│   └── hero-tiefbau-glasfaser.png
+├── app/
+│   ├── globals.css
+│   ├── layout.jsx
+│   └── page.jsx
+├── public/
+│   ├── assets/
+│   ├── robots.txt
+│   └── sitemap.xml
 ├── index.html
+├── next.config.mjs
+├── package-lock.json
+├── package.json
 ├── script.js
 ├── style.css
 ├── hosting-hinweise.md
@@ -28,24 +34,26 @@ Statische Unternehmenswebsite für die Bau-Connekt GmbH.
 └── .gitignore
 ```
 
-## Lokal öffnen
+Die aktive Next.js-Anwendung liegt in `app/` und `public/`. Die ursprünglichen statischen Dateien `index.html`, `style.css`, `script.js` und `assets/` bleiben als Referenz erhalten.
 
-Die Website kann direkt im Browser geöffnet werden:
+## Lokal entwickeln
 
-```text
-index.html
-```
-
-Alternativ kann ein lokaler statischer Server genutzt werden, zum Beispiel:
+Abhängigkeiten installieren:
 
 ```bash
-python3 -m http.server 8080
+npm install
+```
+
+Entwicklungsserver starten:
+
+```bash
+npm run dev
 ```
 
 Danach im Browser öffnen:
 
 ```text
-http://localhost:8080
+http://localhost:3000
 ```
 
 ## Formulare
@@ -68,7 +76,19 @@ Für einen echten KI-Chatbot mit freien Antworten und automatischer E-Mail-Verar
 
 ## Deployment
 
-Die Website ist statisch und kann auf normalen Webhostings, Netlify, Vercel, GitHub Pages oder ähnlichen Diensten veröffentlicht werden.
+## Statischer Export
+
+Das Projekt ist für statischen Export vorbereitet:
+
+```bash
+npm run build
+```
+
+Der fertige Export liegt danach im Ordner `out/`.
+
+## Deployment
+
+Die Website kann auf Vercel, Netlify, GitHub Pages oder jedem Hosting veröffentlicht werden, das statische Next.js-Exports unterstützt.
 
 Weitere Hinweise stehen in:
 
