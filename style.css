@@ -504,6 +504,10 @@ textarea:focus {
   background: var(--white);
 }
 
+.legal-section-alt {
+  background: var(--soft);
+}
+
 .legal-content {
   max-width: 920px;
 }
@@ -531,6 +535,14 @@ textarea:focus {
 
 .legal-content a {
   color: var(--brand);
+}
+
+.legal-pre {
+  margin: 24px 0 0;
+  color: var(--muted);
+  font: inherit;
+  line-height: 1.65;
+  white-space: pre-wrap;
 }
 
 footer {
