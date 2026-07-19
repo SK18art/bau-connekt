@@ -51,11 +51,12 @@ a {
 }
 
 .nav {
-  min-height: 112px;
+  min-height: 158px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 24px;
+  position: relative;
 }
 
 .logo {
@@ -67,7 +68,7 @@ a {
 
 .brand-logo {
   width: auto;
-  height: 96px;
+  height: 132px;
   object-fit: contain;
 }
 
@@ -75,6 +76,8 @@ a {
   display: flex;
   align-items: center;
   gap: 20px;
+  position: absolute;
+  right: 0;
   color: #33475d;
   font-size: 15px;
 }
@@ -518,10 +521,12 @@ footer {
   }
 
   .brand-logo {
-    height: 86px;
+    height: 112px;
   }
 
   .navlinks {
+    position: static;
+    justify-content: center;
     width: 100%;
     overflow-x: auto;
     padding-bottom: 2px;
@@ -570,6 +575,6 @@ footer {
   }
 
   .brand-logo {
-    height: 76px;
+    height: 92px;
   }
 }
