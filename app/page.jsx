@@ -384,6 +384,11 @@ export default function Home() {
       <footer>
         <div className="wrap foot">
           <span>© 2026 Bau-Connekt GmbH. Alle Rechte vorbehalten.</span>
+          <nav className="footer-links" aria-label="Rechtliche Links">
+            <a href="#impressum">Impressum</a>
+            <a href="#datenschutz">Datenschutz</a>
+            <a href="#cookie-richtlinie">Cookie-Richtlinie</a>
+          </nav>
         </div>
       </footer>
     </>
