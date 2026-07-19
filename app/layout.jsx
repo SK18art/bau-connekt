@@ -5,7 +5,7 @@ export const metadata = {
   description:
     'Bau-Connekt GmbH aus Köln: Tiefbauarbeiten, Glasfaserverlegung, Telekommunikationsnetze, Montage, Wartung, Reparatur und Infrastrukturtechnik.',
   alternates: {
-    canonical: 'https://bau-connekt.com/',
+    canonical: 'https://bau-connekt.de/',
   },
 };
 
