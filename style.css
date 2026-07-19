@@ -51,7 +51,7 @@ a {
 }
 
 .nav {
-  min-height: 74px;
+  min-height: 112px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -67,16 +67,8 @@ a {
 
 .brand-logo {
   width: auto;
-  height: 58px;
+  height: 96px;
   object-fit: contain;
-}
-
-.hero-logo {
-  width: min(560px, 86vw);
-  height: auto;
-  margin: 0 auto 30px;
-  object-fit: contain;
-  filter: drop-shadow(0 20px 34px rgba(0, 0, 0, 0.3));
 }
 
 .navlinks {
@@ -520,9 +512,13 @@ footer {
 
 @media (max-width: 860px) {
   .nav {
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     padding: 16px 0;
+  }
+
+  .brand-logo {
+    height: 86px;
   }
 
   .navlinks {
@@ -573,7 +569,7 @@ footer {
     padding: 22px;
   }
 
-  .hero-logo {
-    width: min(420px, 92vw);
+  .brand-logo {
+    height: 76px;
   }
 }

@@ -71,13 +71,6 @@ export default function Home() {
         <section className="hero" aria-label="Bau-Connekt Tiefbau und Glasfaser">
           <div className="wrap">
             <div className="hero-content">
-              <img
-                className="hero-logo"
-                src="/assets/bau-connekt-logo-web.png"
-                alt="Bau-Connekt GmbH"
-                width="266"
-                height="140"
-              />
               <p className="eyebrow">Tiefbau · Glasfaser · Telekommunikationsnetze</p>
               <h1>Bau-Connekt GmbH baut moderne Infrastruktur für vernetzte Städte.</h1>
               <p>
