@@ -8,7 +8,6 @@ Next.js-Unternehmenswebsite für die Bau-Connekt GmbH.
 - Logo und Bildmaterial im Ordner `public/assets/`
 - Projektanfrage als Formular-Popup
 - Kunden- und Unternehmer-Registrierung im Kontaktbereich
-- Mehrsprachiger 24h-Chatbot als statisches Website-Widget
 - E-Mail-Vorbereitung an `r.khaki@bau-connekt.com`
 
 ## Projektstruktur
@@ -67,12 +66,6 @@ r.khaki@bau-connekt.com
 ```
 
 Wichtig: Für automatisches Absenden ohne E-Mail-Programm ist später ein Formularservice oder Backend nötig.
-
-## Chatbot
-
-Der Chatbot läuft vollständig im Browser und beantwortet typische Fragen zu Leistungen, Kontakt, Projektanfrage und Registrierung in mehreren Sprachen.
-
-Für einen echten KI-Chatbot mit freien Antworten und automatischer E-Mail-Verarbeitung ist später ein Backend/API-Service nötig.
 
 ## Deployment
 
