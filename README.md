@@ -62,7 +62,7 @@ Die Formulare sind als statische `mailto:`-Formulare umgesetzt. Beim Absenden ö
 Zieladresse für Projektanfragen und Registrierungen:
 
 ```text
-r.khaki@bau-connekt.com
+info@bau-connekt.de
 ```
 
 Wichtig: Für automatisches Absenden ohne E-Mail-Programm ist später ein Formularservice oder Backend nötig.
